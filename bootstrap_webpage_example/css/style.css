@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: beatlesfont;
+    src: url(/font/beatles.ttf);
+}
+
+.card-title {
+    font-family: beatlesfont;
+    font-size: 50px;
+}
+
+button.carousel-control-next,
+button.carousel-control-prev {
+    background-color: black;
+    opacity: 0.06;
+}
+
+.card {
+    background-color: white;
+}
+
+.container {
+    background-color: #5DADE2;
+    border-radius: 70px;
+}
+
+h6 {
+    text-align: center;
+    font-family: beatlesfont;
+    font-size: 50px;
+}
+
+
+footer {
+    background-color: #D0D3D4;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #5DADE2;
+    opacity: 0, 9;
+}
+
+
+.socialIcons a:hover {
+    background-color: #5DADE2;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom {
+    background-color: #AFB0B0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+    .socialIcons a {
+        padding: 8px;
+        margin: 4px;
+    }
+}
